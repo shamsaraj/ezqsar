@@ -1,0 +1,16 @@
+Package: ezqsar
+Title: An Easy Solution to Build QSAR Models
+Version: 0.8.0
+Author: Jamal Shamsara [aut, cre]
+Maintainer: Jamal Shamsara <shamsaraj@mums.ac.ir>
+Description: By using ezqsar_f function, it is possible to generate descriptors from a provided 
+    data set. After that, data set is divided into train and test sets, 
+    variable selection is performed, a MLR model is developed and statistical parameters
+    are calculated for the final MLR model.
+Depends:	  
+    R (>= 3.2.5)
+Imports: caret, leaps, rcdk, fingerprint, grDevices, graphics, stats, utils
+License: GPL-2
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 5.0.1
