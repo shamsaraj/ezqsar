@@ -19,11 +19,11 @@ It can be installed by one of the following methods in R:
 
 install.packages("devtools")
 
-devtools::devtools::install_github("shamsaraj/ezqsar")
+devtools::install_github("shamsaraj/ezqsar")
 
 2-
 
-setwd("D:/")
+setwd("D:/")#set a working directory
 
 download.file(url="https://github.com/shamsaraj/ezqsar", destfile="ezqsar.zip")
 
@@ -35,7 +35,9 @@ install.packages("ezqsar_0.8.0.tar.gz", repos = NULL)
 
 3-
 
-Download ezqsar-master.zip file from "clone or download" link in https://github.com/shamsaraj/ezqsar.
+Download ezqsar-master.zip file from "clone or download" link in https://github.com/shamsaraj/ezqsar
+
+setwd("D:/")#set the path to the download folder
 
 unzip("ezqsar-master.zip")
 
