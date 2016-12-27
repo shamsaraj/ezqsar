@@ -25,11 +25,11 @@ devtools::install_github("shamsaraj/ezqsar")
 
 setwd("D:/")#set a working directory
 
-download.file(url="https://github.com/shamsaraj/ezqsar", destfile="ezqsar.zip")
+download.file(url="https://github.com/shamsaraj/ezqsar", destfile="ezqsar-master.zip")
 
-unzip("ezqsar.zip")
+unzip("ezqsar-master.zip")
 
-system("R CMD build ezqsar")
+system("R CMD build ezqsar-master")
 
 install.packages("ezqsar_0.8.0.tar.gz", repos = NULL)
 
