@@ -12,6 +12,9 @@ ezqsar_f(SDFfile, activityfile, propertyfield = "title",
   Nofdesc = 6, correlation = 1, partition = 0.8,
   des_sel_meth = "forward", testset = 0, newdataset = 0,
   newdataset2 = 0, activity = 0, Cutoff = 3)
+  
+  Important note: It depends on four packages: caret, fingerprint, leaps and rcdk.
+  
 
 It can be installed by one of the following methods in R:
 
@@ -44,4 +47,6 @@ unzip("ezqsar-master.zip")
 system("R CMD build ezqsar-master")
 
 install.packages("ezqsar_0.8.0.tar.gz", repos = NULL)
+
+
 
