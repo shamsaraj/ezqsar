@@ -19,6 +19,7 @@ ezqsar_f(SDFfile, activityfile, propertyfield = "title",
   
 To test the installation try: 
 > library (ezqsar)
+
 > example (ezqsar_f)
 
 It can be installed by one of the following methods in R:
