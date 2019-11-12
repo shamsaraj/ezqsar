@@ -17,7 +17,7 @@ ezqsar_f(SDFfile, activityfile, propertyfield = "title",
   
   Important note: It depends on four packages: caret, fingerprint, leaps and rcdk.
   
-to test the installation try: 
+To test the installation try: 
 > example (ezqsar_f)
 
 It can be installed by one of the following methods in R:
