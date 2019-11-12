@@ -19,8 +19,11 @@ ezqsar_f(SDFfile, activityfile, propertyfield = "title",
   
 
 It can be installed by one of the following methods in R:
+to test the installation try: 
+> example (ezqsar_f)
 
-1- 
+
+1- (recommended, tested on R 3.5.3)
 
 >install.packages("devtools")
 
