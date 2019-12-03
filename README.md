@@ -15,7 +15,7 @@ ezqsar_f(SDFfile, activityfile, propertyfield = "title",
   des_sel_meth = "forward", testset = 0, newdataset = 0,
   newdataset2 = 0, activity = 0, Cutoff = 3)
   
-  Important note: It depends on four packages: caret, fingerprint, leaps and rcdk.
+  Important note: It depends on four packages: caret, fingerprint, leaps and rcdk. Update Java environment on your system. Use the R version according to the architecture of your operating system (32x or 64x, tested on R 3.5.3). 
   
 To test the installation try: 
 > library (ezqsar)
